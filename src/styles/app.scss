@@ -62,10 +62,11 @@ $third: #cd000c !important;
 // StartHello
 
 .button-social {
-
+  text-align: center;
   &__facebook {
     background-color: white !important;
     color: black;
+    display: inline-block;
     ///*margin: 2vh 2vw 2vh 2vw*/
   }
 
@@ -78,6 +79,7 @@ $third: #cd000c !important;
     /*margin: 2vh 2vw 2vh 2vw;*/
     background-color: white !important;
     color: black;
+    display: inline-block;
     size: 200px;
   }
 
@@ -90,10 +92,12 @@ $third: #cd000c !important;
     /*margin: 2vh 2vw 2vh 2vw;*/
     background-color: white !important;
     color: black;
+    display: inline-block;
   }
 
   &__github:hover {
-    background-color: white !important;
+    background-color: black !important;
+    color: white !important;
     /*transform: scale(1.5);*/
   }
 }
@@ -225,7 +229,7 @@ a {
   padding-left: 40px;
   font-size: 1rem;
   @media only screen and (max-width: 400px) {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
   color: #777777;
 }
@@ -368,6 +372,9 @@ a {
   padding-left: 20% !important;
 
   &__input {
-    min-height: 80px
+    min-height: 80px;
+    width: 100% !important;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 }

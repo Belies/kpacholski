@@ -45,12 +45,12 @@
             </div>
           </div>
         </v-flex>
-        <v-flex class="hidden-lg-and-up " lg4 md6 xs12>
+        <v-flex class="hidden-lg-and-up hidden-sm-and-down " lg4 md6 xs12>
           <div class="h_gallery_item">
             <div class="g_img_item">
               <img alt="" class="img-fluid" height="auto" src="img/pacholski-page.jpg" width="100%">
-              <a class="light" target="_blank" href="https://kpacholskipl.github.io/kpacholski/"><img alt=""
-                                                                                      src="img/projects-icon.png"></a>
+              <a class="light" target="_blank" href="https://kpacholskipl.github.io/kpacholski/">
+                <img alt="" src="img/projects-icon.png"></a>
             </div>
             <div class="g_item_text">
               <h4>Kpacholski.pl</h4>
@@ -64,7 +64,7 @@
     </v-container>
     <div class="pb-5" style="background-color: black; display: flex; align-items: center;
           justify-content: center;margin-left: 0px !important;margin-right: 0px!important;">
-      <v-btn color="black" dark>Załaduj więcej</v-btn>
+      <v-btn color="black" disabled dark>Załaduj więcej</v-btn>
     </div>
   </section>
 

@@ -97,7 +97,7 @@
   }
 
   .button-social__github:hover {
-    background-color: white !important;
-    /*transform: scale(1.5);*/
+    background-color: #4267b2 !important;
+    color: white !important;
   }
 </style>
