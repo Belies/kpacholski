@@ -14,7 +14,7 @@
                     <v-container grid-list-md>
                         <v-layout>
                             <v-flex xs2>
-                                <v-btn class="ma-1" color="white" height="80px" width="80px" >
+                                <v-btn @click="push('https://laravel.com/')" class="ma-1" color="white" height="80px" width="80px" >
                                     <v-avatar>
                                         <img alt="avatar" height="80px" src="https://laravel.com/img/logomark.min.svg"
                                              width="80px">
@@ -22,7 +22,7 @@
                                 </v-btn>
                             </v-flex>
                             <v-flex offset-xs2 xs2>
-                                <v-btn class="ma-1" color="white" height="80px" width="80px">
+                                <v-btn @click="push('https://vuejs.org/')" class="ma-1" color="white" height="80px" width="80px">
                                     <v-avatar>
                                         <img alt="avatar" height="80px" src="https://vuejs.org/images/logo.png"
                                              width="80px">
@@ -30,7 +30,7 @@
                                 </v-btn>
                             </v-flex>
                             <v-flex offset-xs2 xs2>
-                                <v-btn class="ma-1" color="white" height="80px" width="80px">
+                                <v-btn @click="push('https://vuetifyjs.com/en/')" class="ma-1" color="white" height="80px" width="80px">
                                     <v-avatar>
                                         <img alt="avatar" height="80px"
                                              src="https://vuetifyjs.com/apple-touch-icon-180x180.png"
@@ -62,7 +62,12 @@
         </v-container>
     </section>
 </template>
-
 <script>
-
+  export default {
+    methods: {
+      push(path) {
+        window.open(path, '_blank')
+      }
+    },
+  }
 </script>
