@@ -11,7 +11,7 @@
           <h6>Cześć wszystkim, jestem</h6>
           <h3>Krystian Pacholski</h3>
           <h4>Junior WEB Developer</h4>
-          <p>Chłopak marnujący trzeci rok w technikum informatycznym amitnie dążący do realizacji swoich
+          <p>Chłopak marnujący trzeci rok w technikum informatycznym ambitnie dążący do realizacji swoich
             nieposkromionych marzeń.<br> W wolnej chwili lubi sięgnąć po ciekawą książkę koniecznie z kubkiem pełnym pysznej kawy ;3 <br></p>
           <ul class="list hello_info">
             <li><a href="#">
