@@ -10,8 +10,8 @@
         <v-flex lg4 md6 xs12>
           <div class="h_gallery_item">
             <div class="g_img_item pa-0 ma-0" style="width: 60% !important;">
-              <img alt="" height="auto" src="img/grocero-shop.jpg" width="100%">
-              <a class="light" target="_blank" href="https://grocero.pl"><img alt="" src="img/projects-icon.png"></a>
+              <img alt="Błąd przy ładowaniu zdjęcia" height="auto" src="img/grocero-shop.jpg" width="100%">
+              <a class="light" target="_blank" href="https://grocero.pl"><img alt="Błąd przy ładowaniu zdjęcia" src="img/projects-icon.png"></a>
             </div>
             <div class="g_item_text">
               <h4>Grocero.pl</h4>
@@ -22,8 +22,8 @@
         <v-flex lg4 md6 xs12>
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <img alt="" class="img-fluid" height="auto" src="img/pacholski-page.jpg" width="100%">
-              <a class="light" target="_blank" href="https://kpacholskipl.github.io/kpacholski/"><img alt=""
+              <img alt="Błąd przy ładowaniu zdjęcia" class="img-fluid" height="auto" src="img/pacholski-page.jpg" width="100%">
+              <a class="light" target="_blank" href="https://kpacholskipl.github.io/kpacholski/"><img alt="Błąd przy ładowaniu zdjęcia"
                                                                                       src="img/projects-icon.png"></a>
             </div>
             <div class="g_item_text">
@@ -35,8 +35,8 @@
         <v-flex lg4 md6 xs12>
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <img alt="" class="img-fluid" height="auto" src="img/pacholski-page.jpg" width="100%">
-              <a class="light" target="_blank" href="https://kpacholskipl.github.io/kpacholski/"><img alt=""
+              <img alt="Błąd przy ładowaniu zdjęcia" class="img-fluid" height="auto" src="img/pacholski-page.jpg" width="100%">
+              <a class="light" target="_blank" href="https://kpacholskipl.github.io/kpacholski/"><img alt="Błąd przy ładowaniu zdjęcia"
                                                                                       src="img/projects-icon.png"></a>
             </div>
             <div class="g_item_text">
@@ -48,9 +48,9 @@
         <v-flex class="hidden-lg-and-up hidden-sm-and-down " lg4 md6 xs12>
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <img alt="" class="img-fluid" height="auto" src="img/pacholski-page.jpg" width="100%">
+              <img alt="Błąd przy ładowaniu zdjęcia" class="img-fluid" height="auto" src="img/pacholski-page.jpg" width="100%">
               <a class="light" target="_blank" href="https://kpacholskipl.github.io/kpacholski/">
-                <img alt="" src="img/projects-icon.png"></a>
+                <img alt="Błąd przy ładowaniu zdjęcia" src="img/projects-icon.png"></a>
             </div>
             <div class="g_item_text">
               <h4>Kpacholski.pl</h4>

@@ -80,7 +80,7 @@
         content: v => v.length >= 20 || 'Min 20 znaków',
         email: value => {
           const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-          return pattern.test(value) || 'Niepoprawny format e-mail.'
+          return pattern.test(value.trim()) || 'Niepoprawny format e-mail.'
         }
       },
       rulesBoolean: {

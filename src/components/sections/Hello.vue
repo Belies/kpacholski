@@ -3,7 +3,7 @@
     <v-container class="hello_700" grid-list-md>
       <v-layout row wrap>
         <v-flex lg7>
-          <img alt="" class="hello__image" src="img/personal.jpg"
+          <img alt="Błąd przy ładowaniu zdjęcia" class="hello__image" src="img/personal.jpg"
                style="padding-top: 15%; border-radius: 2%!important;width: 100%!important;height: auto"
           />
         </v-flex>
